@@ -7,285 +7,31 @@ body{
 	font-size:.75rem;
 	color:#4A4A4A;
 }
-/* Header - Amanda */
-div.header{
-	padding:0 1rem;
-	display:grid;
-	grid-gap:1rem;
-	grid-template-columns:70% 30%;
-	grid-template-rows:auto;
-	align-items:center;
-	background:white;
-	height:4rem;
-	width:100%;
-	position:fixed;
-	top:0;
-	left:0;
-	right:0;
-}
-div.profile{
-	display:grid;
-	grid-gap:.75rem;
-	grid-template-columns:30% 70%;
-	grid-template-rows:auto;
-	align-items:center;
-}
-img.logo{
-	width:auto;
-	height:2rem;
-}
-div.profile_picture{
-	width:2rem;
-	height:2rem;
-	border-radius:2rem;
-	background:gray;
-}
-/* Navigation - Amanda */
-div.nav{
-	background:#4A4A4A;
-	position:fixed;
-	width:100%;
-	bottom:0;
-	left:0;
-	right:0;
-	height:4rem;
-	display:grid;
-	grid-gap:0rem;
-	grid-template-columns:25% 25% 25% 25%;
-	align-items:center;
-	justify-items:center;
-}
-img.nav_icon{
-	width:2rem;
-}
-a.nav p{
-	margin-top:-.5rem;
-}
-a.nav{
-	text-decoration:none;
-	text-align:center;
-	color:white;
-	display:grid;
-	align-items:center;
-	justify-items:center;
-	padding:.5rem 0;
-}
+/* pattern lab by adam flex seel pokeman mastre of high commodore phil swiftis of azanoth, high king of ka-ka-carrot */
 
-/* Candidates - Matt */
-.heading{
-	font-weight: 500;
-	font-family: 'Roboto', sans-serif;
-	font-size: 16pt;
-	color: #BFA3C7;
-	font-style: italic;
-	margin-left: 5%;
-	padding-top:20%;
+.logopng {
+	max-width:100px;
+	max-height:100px;
 }
-.subheading{
-	font-weight: 500;
-	font-family: 'Roboto', sans-serif;
-	font-size: 13pt;
-	color: #BFA3C7;
-	text-align:center;
-	padding-top: 20px;
+.dot {
+  height: 50px;
+  width: 50px;
+  background-color: #D6745C;
+  border-radius: 50%;
+  display: inline-block;
 }
-.candidatesfiltertop{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	margin: auto;
-	justify-content: center;
+.dot2 {
+  height: 50px;
+  width: 50px;
+  background-color: #9279E4;
+  border-radius: 50%;
+  display: inline-block;
 }
-.filterpic{
-	padding-top: 20px;
-	padding-left: 10px;
-}
-.candidatesfilterbottom{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	margin: auto;
-	margin-left:50px;
-}
-.subheading2{
-	font-weight: 500;
-	font-family: 'Roboto', sans-serif;
-	font-size: 12pt;
-	text-align:center;
-	padding-top: 10px;
-}
-.filterpic2{
-	padding-top: 12px;
-	padding-right: 10px;
-}
-.hidden{
-	display:none;
-}
-.slider{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	margin: auto;
-	justify-content: center;
-}
-.slidertext{
-	font-weight: 500;
-	font-family: 'Roboto', sans-serif;
-	font-size: 12pt;
-	text-align:center;
-}
-.sliderpic{
-	padding-left:5px;
-	padding-right:5px;
-}
-.candiateboxpic img{
-	width:100%;
-}
-.candidatebox1{
-	display: flex;
-	flex-direction:column;
-	box-shadow: 0px 2px 4px grey;
-	border-radius:10px;
-	margin-right: 5%;
-	height:217px;
-}
-.candidatebox2{
-	display: flex;
-	flex-direction:column;
-	box-shadow: 0px 2px 4px grey;
-	border-radius:10px;
-	margin-left:5%;
-	height:217px;
-}
-.candiatename{
-	margin-top:-10px;
-}
-.nametext{
-	font-weight: 500;
-	font-family: 'Roboto', sans-serif;
-	font-size: 13pt;
-	text-align:center;
-}
-.candidatemore{
-	background: #BFA3C7;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
-	height:30px;
-}
-.viewmore{
-	text-align: center;
-	color:white;
-	font-weight: 500;
-	font-family: 'Roboto', sans-serif;
-	font-size: 12pt;
-	margin-top:5px;
-}
-.twogrid{
-	width: 100%;
-	justify-content: center;
-	padding-bottom: 20px;
-	display: grid;
-	grid-gap: 5%;
-	grid-template-columns: 40% 40%;
-	grid-template-rows: repeat(auto, 230px);
-	padding-bottom:20px;
-}
-
-/* Candidatesdetail - Adam */
-
-.candidatename2 {
-	margin-top:10%;
-	text-align:center;
-}
-.bodytext {
-	font-family:'Roboto', sans-serif;
-	font-size:13px;
-}
-.header {
-	font-family:'Robot', sans-serif;
-	font-size:16px;
-	font-weight:500;
-	color:#bfa3c7;
-}
-body.cdetail{
-	margin-bottom:6rem;
-	margin-left:1rem;
-}
-.pollsbutton {
-	background:#bfa3c7;
-	border-radius: 5px;
-	color:#ffffff;
-	font-size:16px;
-	border-style:none;
-	padding:0.2rem 0.2rem;
-	text-decoration:none;
-	margin:6rem;
-}
-.candidateimg {
-	max-width:100vw;
-	max-height:auto;
-	border-bottom-right-radius: 200px;
-	border-bottom-left-radius: 200px;
-	margin-left:-1rem;
-}
-/* Polls page - Brendan T*/
-.dad_bod {
-	margin-top:30%;
-}
-.pollgraph {
-	width:100%;
-	height:auto;
-}	
-.po_bodytext {
-	font-family:'Roboto', sans-serif;
-	font-size:13px;
-	margin-right:2rem;
-	margin-left:2rem;
-	margin-bottom:2.2rem;
-}
-.po_button {
-	background:#bfa3c7;
-	border-radius: 5px;
-	color:#ffffff;
-	font-size:16px;
-	border-style:none;
-	padding:0.5rem 0.5rem;
-	text-decoration:none;
-	margin-right:2rem;
-	margin-left:2rem;
-}
-.headerdark_po {
-	margin-top:2.3rem;
-	margin-right:2rem;
-	margin-left:2rem;
-	font-family:'Robot', sans-serif;
-	font-size:16px;
-	font-weight:500;
-	color:darkslategrey;
-}
-.candidateblock {
-	width:85%;
-	height:auto;
-	
-}
-.flex_seal {
-	margin-right:2rem;
-	margin-left:2rem;
-	margin-bottom:6rem;
-	display:flex;
-}
-
-/* Login page - Adam */
-
-.logintitle {
-		font-family:'Robot', sans-serif;
-		font-size:32pt;
-		color:#ffffff;	
-}
-body.blogin {
- background-image: url("../images/login.jpg");
-}
-.eelogologin {
-	
+.dot3 {
+  height: 50px;
+  width: 50px;
+  background-color: #232D48;
+  border-radius: 50%;
+  display: inline-block;
 }
 
