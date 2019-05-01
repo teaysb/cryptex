@@ -163,6 +163,9 @@ a.wallet img {
 .circlegrid {
 	display:flex;
 }
+.span {
+	padding-right:1.2rem;
+}
 .thin {
 	font-weight:400;
 }
