@@ -1,46 +1,107 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
 *{
 	box-sizing:border-box;
 }
 body{
-	font-family:sans-serif;
+	font-family:Montserrat, sans-serif;
 	font-size:.75rem;
 	color:#4A4A4A;
 }
 /* pattern lab by adam flex seel pokeman mastre of high commodore phil swiftis of azanoth, high king of ka-ka-carrot */
 
 .logopng {
-	max-width:100px;
-	max-height:100px;
+	padding-top:1rem;
+	width:100px;
+	height:auto;
 }
 .dot {
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
   background-color: #D6745C;
   border-radius: 50%;
   display: inline-block;
 }
 .dot2 {
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
   background-color: #9279E4;
   border-radius: 50%;
   display: inline-block;
 }
 .dot3 {
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
   background-color: #232D48;
   border-radius: 50%;
   display: inline-block;
 }
+.pad {
+	padding-right:1.4rem;
+}
+.hero {
+	height:auto;
+	width:75%
+}
 .gradient {
-	background-image:linear-gradient (92deg, #D6745C 19%, #9279E4 91%);
+	display:block;
+	background-image:linear-gradient(92deg, #D6745C 19%, #9279E4 91%);
+	height:50px;
 	border-radius: 8px;
+	max-width:75%;
 	
 }
+.gradient_blue {
+	display:block;
+	background-image: linear-gradient(243deg, #D74622 0%, #285671 100%);
+	box-shadow: 0 3px 5px 0 rgba(0,0,0,0.50);
+	border-radius: 8px;
+	height:50px;
+	max-width:75%;
+	
+}
+.dark {
+	background-color:#232D48;
+	height:50px;
+	border-radius: 8px;
+	max-width:75%;
+}
+.flex-seal {
+	display:flex;
+	justify-content:space-between;
+	max-width:75%;
+	
+}
+.icon {
+	width:8%;
+	height:auto;
+}
+.circlegrid {
+	display:flex;
+}
 .thin {
+	font-weight:400;
 }
 .bold {
-	font-weight: 500;
+	font-weight: 700;
+}
+.reg{
+	font-weight:500;
+}
+.mild{
+	font-weight:600;
+}
+h2 {
+	font-weight:600;
+}
+h1 {
+	font-weight:700;
+}
+h3 {
+	font-weight:500;
+}
+h4 {
+	font-weight:500;
+}
+body {
+	padding:1.0rem 1.5rem 1rem 1.5rem;
 }
