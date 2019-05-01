@@ -35,6 +35,20 @@ body{
   border-radius: 50%;
   display: inline-block;
 }
+.dot4 {
+    height: 60px;
+    width: 60px;
+    background-color: #38446B;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot_5 {
+    height: 60px;
+    width: 60px;
+    background-color: #D74622;
+    border-radius: 50%;
+    display: inline-block;
+}
 .pad {
 	padding-right:1.4rem;
 }
@@ -57,13 +71,22 @@ body{
 	border-radius: 8px;
 	height:50px;
 	max-width:75%;
-	
+}
+.gradient_purp {
+	display:block;
+	background-image: linear-gradient(236deg, #A078C8 22%, #38446B 100%);
+	box-shadow: 0 3px 5px 0 rgba(0,0,0,0.50);
+	border-radius: 8px;
+	height:50px;
+	max-width:75%;
 }
 .dark {
+	padding-top:0.5rem;
+	padding-left:0.5rem;
 	background-color:#232D48;
-	height:65px;
+	height:3rem;
 	border-radius: 8px;
-	max-width:75%;
+	max-width:20%;
 }
 .flex-seal {
 	display:flex;
@@ -71,9 +94,71 @@ body{
 	max-width:75%;
 	
 }
+div.nav{
+	background:#232D48;
+	position:fixed;
+	width:100%;
+	bottom:0;
+	left:0;
+	right:0;
+	height:4rem;
+	display:grid;
+	grid-gap:0rem;
+	grid-template-columns:25% 25% 25% 25%;
+	align-items:center;
+	justify-items:center;
+}
+a.nav p{
+	margin-top:-.5rem;
+}
+a.nav{
+	text-decoration:none;
+	text-align:center;
+	color:white;
+	display:grid;
+	align-items:center;
+	justify-items:center;
+	padding:.5rem 0;
+}
 .icon {
-	width:8%;
+	width:2rem;
 	height:auto;
+	padding-bottom:0.7rem;
+}
+.flex {
+	display:flex;
+}
+a.button {
+	display:inline-block;
+	background-color:#232D48;
+	color:white;
+	border-radius:7px;
+	height:auto;
+	border-style:none;
+	padding:0.4rem 1.3rem;
+	text-decoration:none;
+}
+a.exchange {
+	background-color:none;
+	background-image:linear-gradient(236deg, #A078C8 22%, #38446B 100%);
+}
+a.inactive {
+	background-color:#e2e2e2;
+}
+a.wallet {
+	background-color:none;
+	background-image:linear-gradient(236deg, #A078C8 22%, #38446B 100%);
+	display:inline-flex;
+	align-items:center;
+	justify-content:center;
+}
+a.wallet img {
+	width:2.5em;
+	padding-right:0.5rem;
+}
+.click{
+	text-align:center;
+	font-size:1.1rem;
 }
 .circlegrid {
 	display:flex;
@@ -103,5 +188,5 @@ h4 {
 	font-weight:500;
 }
 body {
-	padding:1.0rem 1.5rem 1rem 1.5rem;
+	padding:1.0rem 1.5rem 5rem 1.5rem;
 }
