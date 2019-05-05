@@ -86,13 +86,20 @@ body{
 	background-color:#232D48;
 	height:3rem;
 	border-radius: 8px;
-	max-width:20%;
+	max-width:50%;
+	min-width:20%;
 }
 .flex-seal {
 	display:flex;
 	justify-content:space-between;
-	max-width:75%;
+	max-width:45%;
+	min-width:43%;
 	
+}
+.flex-seal_text{
+	display:flex;
+	justify-content:space-between;
+	max-width:75%;
 }
 div.nav{
 	background:#232D48;
@@ -138,6 +145,16 @@ a.button {
 	padding:0.4rem 1.3rem;
 	text-decoration:none;
 }
+a.button_w {
+	display:inline-block;
+	background-color:#232D48;
+	color:black;
+	border-radius:7px;
+	height:auto;
+	border-style:none;
+	padding:0.4rem 1.3rem;
+	text-decoration:none;
+}
 a.exchange {
 	background-color:none;
 	background-image:linear-gradient(236deg, #A078C8 22%, #38446B 100%);
@@ -152,7 +169,18 @@ a.wallet {
 	align-items:center;
 	justify-content:center;
 }
+a.display{
+	color:black;
+	background-color:#FFFAFF;
+	display:inline-flex;
+	align-items:center;
+	justify-content:center;
+}
 a.wallet img {
+	width:2.5em;
+	padding-right:0.5rem;
+}
+a.display img {
 	width:2.5em;
 	padding-right:0.5rem;
 }
