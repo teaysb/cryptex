@@ -5,7 +5,8 @@
 body{
 	font-family:Montserrat, sans-serif;
 	font-size:.75rem;
-	color:#4A4A4A;
+	color:#FFFFFF;
+	background:#232D48;
 }
 /* pattern lab by adam flex seel pokeman mastre of high commodore phil swiftis of azanoth, high king of ka-ka-carrot */
 
@@ -48,6 +49,17 @@ body{
     background-color: #D74622;
     border-radius: 50%;
     display: inline-block;
+}
+.dropper {
+	margin:-8px;
+	padding:0rem;
+	
+}
+.topper {
+	width:100%;
+	height:auto;
+	margin:0;
+	
 }
 .pad {
 	padding-right:1.4rem;
@@ -218,6 +230,6 @@ h3 {
 h4 {
 	font-weight:500;
 }
-body {
+.bhome {
 	padding:1.0rem 1.5rem 5rem 1.5rem;
 }
