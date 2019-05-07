@@ -221,3 +221,17 @@ h4 {
 body {
 	padding:1.0rem 1.5rem 5rem 1.5rem;
 }
+
+/* log in pagerino flex seal dope stuff */
+
+.logingrid {
+	display:grid;
+	 grid-template-columns: repeat(2, 0.5fr);
+	 margin-top:20%;
+}
+.logintitle {
+	margin-top:35%;
+}
+body.blogin {
+	background-image: url("images/hero.jpg");
+}
