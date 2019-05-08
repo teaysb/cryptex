@@ -88,6 +88,10 @@ body{
 	height:auto;
 	
 }
+.width {
+	max-width:30%;
+	height:auto;
+}
 .topper_small {
 	display:block;
 	width:40%;
