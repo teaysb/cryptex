@@ -15,6 +15,14 @@ body{
 	height:auto;
 	margin-left:1rem;
 }
+.circlegraph {
+	display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 50%;
+	width:250px;
+	height:auto;
+}
 .dot {
   height: 60px;
   width: 60px;
@@ -90,7 +98,9 @@ body{
 	box-shadow: 0 3px 5px 0 rgba(0,0,0,0.50);
 	border-radius: 8px;
 	height:50px;
-	max-width:75%;
+	max-width:95%;
+	color:#ffffff;
+	text-decoration:none;
 }
 .dark {
 	padding-top:0.5rem;
@@ -327,4 +337,25 @@ h4 {
 }
 .settingslist {
 	font-size:14pt;
+}
+
+/* profile */
+
+.subtextwallet {
+	font-size:25pt;
+	text-align:center;
+}
+.smallheaderprofile {
+	font-size:16pt;
+}
+.profilehead {
+	font-size:16pt;
+}
+.subheadprofile {
+	font-size:12pt;
+	text-decoration:underline;
+}
+.subheaddate {
+	text-decoration:none;
+	font-size:12pt;
 }
