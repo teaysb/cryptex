@@ -11,9 +11,9 @@ body{
 /* pattern lab by adam flex seel pokeman mastre of high commodore phil swiftis of azanoth, high king of ka-ka-carrot */
 
 .logopng {
-	padding-top:1rem;
 	width:100px;
 	height:auto;
+	margin-left:1rem;
 }
 .dot {
   height: 60px;
@@ -149,13 +149,16 @@ a.nav{
 }
 a.button {
 	display:inline-block;
-	background-color:#232D48;
-	color:white;
+	margin-left:1rem;
+	margin-right:1rem;
+	background-color:#FFFFFF;
+	color:#232D48;
 	border-radius:7px;
 	height:auto;
 	border-style:none;
 	padding:0.4rem 1.3rem;
 	text-decoration:none;
+	margin-top:20%;
 }
 a.button_w {
 	display:inline-block;
@@ -199,6 +202,11 @@ a.display img {
 .click{
 	text-align:center;
 	font-size:1.1rem;
+}
+.click_1{
+	text-align:center;
+	font-size:1.1rem;
+	margin:0;
 }
 .circlegrid {
 	display:flex;
@@ -246,7 +254,43 @@ h4 {
 	display:flex;
 	justify-content:center;
 }
+
 .formalign {
 	display:flex;
 	justify-content:center;
+	z-index:100000;
+}
+.back {
+	background-image:linear-gradient(92deg, #D6745C 19%, #9279E4 91%);
+	border-radius: 8px;
+	height:500px;
+	width:100%;
+	left:0;
+	right:0;
+	bottom:0;
+}
+.button {
+	color:#FFFFFF;	
+}
+.userlogin {
+	display:flex;
+	justify-content:center;
+	padding-top:6rem;
+	
+}
+.userpassword {
+	display:flex;
+	justify-content:center;
+	padding-top:1rem;
+}
+.buttonguest {
+	color:#ffffff;
+	text-decoration:none;
+	font-size:14px;
+	font-weight: 100;
+	text-decoration: underline;
+}
+.fyp {
+	margin-top:20%;
+	text-align:center;
 }
