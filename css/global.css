@@ -387,6 +387,30 @@ h4 {
 .settingslist {
 	font-size:14pt;
 }
+.settingsword {
+	position:absolute;
+	margin-top:10%;
+	margin-left:2rem;
+	font-size:18pt;
+}
+.settingslist {
+	text-decoration:none;
+	list-style:none;
+	position:absolute;
+	margin-top:20%;
+}
+.list1 {
+	padding:10px;
+}
+.list2 {
+	padding:10px;
+}
+.list3 {
+	padding:10px;
+}
+.textblock {
+	text-align:center;
+}
 
 /* profile */
 
