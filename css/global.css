@@ -543,11 +543,13 @@ input:checked + .slider:before {
 /* profile */
 
 .subtextwallet {
-	font-size:25pt;
+	font-size:22pt;
 	text-align:center;
+	font-weight:600;
 }
 .smallheaderprofile {
 	font-size:16pt;
+	padding-left:0.4rem;
 }
 .profilehead {
 	font-size:16pt;
