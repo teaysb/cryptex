@@ -237,13 +237,16 @@ h4 {
 /* log in pagerino flex seal dope stuff */
 
 .logingrid {
-	display:grid;
-	 grid-template-columns: repeat(2, 0.5fr);
-	 margin-top:20%;
+	 margin-top:10%;	
 }
-.logintitle {
-	margin-top:35%;
-}
-body.blogin {
+.blogin {
 	background-image: url("images/hero.jpg");
+}
+.loginalign {
+	display:flex;
+	justify-content:center;
+}
+.formalign {
+	display:flex;
+	justify-content:center;
 }

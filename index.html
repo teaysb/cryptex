@@ -10,11 +10,13 @@
 </head>
 
 <body class="blogin">
+<div class="loginalign">
 	<div class="logingrid">
 		<img class="logopng" src="logo_cryptex.png">
 		<h1 class="logintitle">Cryptex</h1>
 	</div>
-    
+</div>
+<div class="formalign">
 	<form class="contactform" method="post" action="php/process-form.php">
                                        <!-- Name Field Starts -->
                                        <div class="userlogin">
@@ -24,7 +26,7 @@
                                        </div>
                                        <!-- Name Field Ends -->
                                        <!-- Email Field Starts -->
-                                       <div class="input-field second-font">
+                                       <div class="userpassword">
                                            <i class="fa fa-envelope prefix"></i>
                                            <input id="password" type="text" name="password" class="validate" required>
                                            <label for="password">Password</label>
@@ -33,12 +35,12 @@
    									<!-- Submit Form Button Starts -->
                                        <div class="col s12 m12 l4 xl4 submit-form">
                                      
-   										<button class="btn font-weight-500" type="submit" name="send">
+   										<button class="loginbutton" type="submit" name="send">
    											<a href="home.html">
    											Log In <i class="fa fa-send"></i>
    												</a>
    										</button>
-									<button class="btn font-weight-500" type="submit" name="send">
+									<button class="signupbutton" type="submit" name="send">
 										<a href="home.html">
 										Sign Up<i class="fa fa-send"></i>
 											</a>
@@ -49,8 +51,8 @@
 									   
       									<!-- Submit Form Button Starts -->
                                           <div class="col s12 m12 l4 xl4 submit-form">
-                                     <p>Fotgot your password?<p>
-      										<button class="btn font-weight-500" type="submit" name="send">
+                                     <p>Forgot your password?<p>
+      										<button class="guestbutton" type="submit" name="send">
       											<a href="home.html">
       											Continue as guest <i class="fa fa-send"></i>
       												</a>
@@ -62,7 +64,7 @@
 										<!-- Submit Form Button Starts -->
                                           
                                            <!-- Submit Form Button Ends -->
-                                       
+</div>                                       
 									   <div class="col s12 m12 l8 xl8 form-message">
                                            <span class="output_message center-align font-weight-500 uppercase"></span>
                                        </div>
