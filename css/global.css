@@ -489,6 +489,7 @@ input:checked + .slider:before {
 	margin-top:41%;
 	margin-left:75%;
 }
+
 /* profile */
 
 .subtextwallet {
