@@ -77,6 +77,27 @@ body{
 	height:auto;
 	width:75%
 }
+.balance {
+	display:flex;
+	font-weight:500;
+	justify-content:center;
+	font-size:1.5rem;
+		color:#FFFFFF;
+}
+.success {
+	display:flex;
+	font-weight:600;
+	justify-content:center;
+	font-size:1.5rem;
+		color:#F7931A;
+}
+.added {
+	display:flex;
+	font-weight:500;
+	justify-content:center;
+	font-size:1.2rem;
+		color:#FFFFFF;
+}
 .gradient {
 	display:block;
 	background-image:linear-gradient(92deg, #D6745C 19%, #9279E4 91%);
@@ -158,6 +179,11 @@ a.nav{
 .flex {
 	display:flex;
 }
+.flex_on {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
 a.button {
 	display:inline-block;
 	margin-left:1rem;
@@ -170,6 +196,19 @@ a.button {
 	padding:0.4rem 1.3rem;
 	text-decoration:none;
 	margin-top:20%;
+}
+a.button_wh {
+	display:inline-block;
+	margin-left:1rem;
+	margin-right:1rem;
+	background-color:#FFFFFF;
+	color:white;
+	border-radius:7px;
+	height:auto;
+	border-style:none;
+	padding:0.4rem 1.3rem;
+	text-decoration:none;
+	margin-top:10%;
 }
 a.button_home {
 	display:inline-block;
