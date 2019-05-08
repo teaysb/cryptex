@@ -160,6 +160,20 @@ a.button {
 	text-decoration:none;
 	margin-top:20%;
 }
+a.button_home {
+	display:inline-block;
+	margin-left:1rem;
+	margin-right:1rem;
+	background-color:#FFFFFF;
+	color:#232D48;
+	border-radius:7px;
+	height:auto;
+	width:80%;
+	border-style:none;
+	padding:0.4rem 1.3rem;
+	text-decoration:none;
+	margin-top:20%;
+}
 a.button_w {
 	display:inline-block;
 	background-color:#232D48;
@@ -189,7 +203,7 @@ a.display{
 	background-color:#FFFAFF;
 	display:inline-flex;
 	align-items:center;
-	justify-content:center;
+	
 }
 a.wallet img {
 	width:2.5em;
@@ -293,4 +307,24 @@ h4 {
 .fyp {
 	margin-top:20%;
 	text-align:center;
+}
+
+/* home */
+
+.homenav {
+	text-decoration:none;
+	
+}
+.date {
+	font-size:18pt;
+}
+.smallheader {
+	font-size:22pt;
+}
+.subheader {
+	font-size:14pt;
+	text-decoration:underline;
+}
+.settingslist {
+	font-size:14pt;
 }
