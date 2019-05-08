@@ -261,6 +261,20 @@ a.button_wh {
 	text-decoration:none;
 	margin-top:10%;
 }
+a.button_why {
+	display:inline-block;
+	margin-left:1rem;
+	margin-right:1rem;
+	background-color:#FFFFFF;
+	color:white;
+	border-radius:7px;
+	height:auto;
+	border-style:none;
+	padding:0.4rem 1.3rem;
+	text-decoration:none;
+	margin-top:10%;
+	width:85vw;
+}
 a.button_home {
 	display:inline-block;
 	margin-left:1rem;
@@ -418,19 +432,32 @@ h4 {
 	border: solid 1px #eee;
 	border-radius: 10px;
 }
-
+.flex_column {
+	display:flex;
+	justify-content:center;
+}
+.doublegrid {
+	padding-right:1rem;
+	padding-left:1rem;
+}
 /* home */
 
 .homenav {
 	text-decoration:none;
 	
 }
-
+.vl {
+	border-left: 2px solid orange;
+	  height: 4rem;
+}
 .date {
 	font-size:18pt;
 }
 .smallheader {
 	font-size:22pt;
+}
+.smallheader_2 {
+	font-size:1.4rem;
 }
 .subheader {
 	font-size:14pt;
