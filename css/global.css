@@ -552,6 +552,9 @@ input:checked + .slider:before {
 	font-size:16pt;
 	padding-left:0.4rem;
 }
+.mar {
+	margin-bottom:6rem;
+}
 .profilehead {
 	font-size:16pt;
 }
