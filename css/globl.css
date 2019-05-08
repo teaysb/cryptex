@@ -58,6 +58,7 @@ body{
 .qr_container {
 	display:flex;
 	justify-content:center;
+	margin-top:-2rem;
 }
 .qr {
 	width:75%;
@@ -103,6 +104,9 @@ body{
 	font-size:1.2rem;
 		color:#FFFFFF;
 		margin:0.5rem;
+}
+.card {
+	
 }
 .pad {
 	padding-right:1.4rem;
