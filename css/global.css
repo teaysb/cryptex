@@ -22,6 +22,7 @@ body{
 	  width: 50%;
 	width:250px;
 	height:auto;
+	position:relative;
 }
 .dot {
   height: 60px;
@@ -363,4 +364,24 @@ h4 {
 	position:absolute;
 	margin-top:1rem;
 	margin-left:1rem;
+}
+.containerofexcinfo {
+	position:absolute;
+	text-align:center;
+	display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 83%;
+	  margin-top:10%;
+}
+.yourwallet{
+	font-size:18pt;
+}
+.excamount {
+	font-size:18pt;
+	color:#F7931A;
+}
+.currentbalance {
+	font-size:12pt;
+	color:#F7931A;
 }
