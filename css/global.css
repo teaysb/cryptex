@@ -61,7 +61,7 @@ body{
 .dropper {
 	margin:-8px;
 	padding:0rem;
-	
+	position:relative;
 }
 .topper {
 	width:100%;
@@ -358,4 +358,9 @@ h4 {
 .subheaddate {
 	text-decoration:none;
 	font-size:12pt;
+}
+.texttop {
+	position:absolute;
+	margin-top:1rem;
+	margin-left:1rem;
 }
