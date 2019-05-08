@@ -70,6 +70,56 @@ body{
 	margin:0;
 	
 }
+.qr_container {
+	display:flex;
+	justify-content:center;
+	margin-top:-2rem;
+}
+.qr {
+	width:75%;
+}
+.flex_on {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.topper {
+	width:100%;
+	height:auto;
+	
+}
+.bank {
+	display:flex;
+	justify-content:center;
+	font-size:1.2rem;
+		color:#F7931A;
+		margin-top:3rem;
+}
+.balance {
+	display:flex;
+	font-weight:500;
+	justify-content:center;
+	font-size:1.5rem;
+		color:#FFFFFF;
+}
+.money {
+	font-family:Montserrat, sans-serif;
+	font-weight:500;
+	font-size:2.7rem;
+		color:#F7931A;
+		margin-bottom:0;
+		margin-top:-0.8rem;
+		padding-left:0.5rem;
+}
+.day {
+	font-family:Montserrat, sans-serif;
+	display:flex;
+	font-weight:400;
+	justify-content:center;
+	font-size:1.2rem;
+		color:#FFFFFF;
+		margin:0.5rem;
+}
 .pad {
 	padding-right:1.4rem;
 }
